@@ -9,7 +9,7 @@ const songsReducers = ()=> {
     ];
 };
 
-const selectedSongReducers = (selectedSong, action) => {
+const selectedSongReducers = (selectedSong = null, action) => {
     if(action.type === 'SONG_SELECTED') {
         return action.payload;
     }
