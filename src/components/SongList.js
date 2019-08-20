@@ -26,7 +26,7 @@ class SongList extends Component {
 }
 
 const mapStateToProps = (state) => {
-    return {songs: state.songs}; //is props object Songlist component.
+    return {songs: state.songs}; //is props object for Songlist component.
 }
 
 export default connect(mapStateToProps, {
